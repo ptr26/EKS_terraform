@@ -4,6 +4,8 @@ name: test_2
 
 # Controls when the workflow will run
 on:
+  push:
+    branches: [ feature/workflows ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
